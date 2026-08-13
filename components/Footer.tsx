@@ -9,6 +9,7 @@ export default function Footer() {
 
       <div className="relative mx-auto max-w-[1440px] px-6 py-16 sm:px-8 lg:px-[72px] lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[1.35fr_1fr_1fr]">
+          
           {/* Brand */}
           <div>
             <a
@@ -104,6 +105,13 @@ export default function Footer() {
                 filvon@outlook.com
               </a>
 
+              <a
+                href="tel:+32XXXXXXXXX"
+                className="w-fit transition-colors duration-200 hover:text-white"
+              >
+                +32 489 20 48 75
+              </a>
+
               <span>België</span>
 
               <span className="text-white/35">
@@ -113,6 +121,7 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Bottom */}
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-7 text-[10px] uppercase tracking-[0.22em] text-white/30 sm:flex-row">
           <span>© 2026 FILVON</span>
 
