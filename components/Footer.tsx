@@ -115,7 +115,14 @@ export default function Footer() {
               <span>België</span>
 
               <span className="text-white/35">
-                href="https://www.linkedin.com/company/filvon"
+                <a
+  href="https://www.linkedin.com/company/filvon"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-blue-300/70 transition-colors hover:text-blue-300"
+>
+  LinkedIn
+</a>
               </span>
             </div>
           </div>
